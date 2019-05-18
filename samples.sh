@@ -18,10 +18,10 @@ green='\033[1;42m' #Green background
 reset='\033[0m' #Reset font
 
 echo ""
-echo -e "$green Files created. $reset Go to Icon Samples folder"
+echo -e "$green Files created. $reset Go to File Samples folder"
 echo ""
 
-mkdir "Icon Samples" && cd "Icon Samples"
+mkdir "File Samples" && cd "File Samples"
 echo "Some sample files for preview." > "Plain Text.txt"
 
 cp "Plain Text.txt" "Access.odb"
