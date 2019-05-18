@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # ---------------------------------------------------------------------------------------
-# Description :		Creates some sample files for preview Boston icon theme
+# Description :		Sample files generator for icon themes preview (Linux environments)
 # Author :		Chris D
 # eMail :		christiandiaz.design@gmail.com
-# Website:		github.com/heychrisd
+# Website:		github.com/heychrisd/sample-files-generator
 # License :		BSD - 2 Clause
 # ---------------------------------------------------------------------------------------
 
@@ -18,11 +18,11 @@ green='\033[1;42m' #Green background
 reset='\033[0m' #Reset font
 
 echo ""
-echo -e "$green Files created. $reset Go to Boston Icons Samples folder"
+echo -e "$green Files created. $reset Go to Icons Samples folder"
 echo ""
 
-mkdir "Boston Icons Samples" && cd "Boston Icons Samples"
-echo "Some Boston Icons sample files for preview." > "Plain Text.txt"
+mkdir "Icons Samples" && cd "Icons Samples"
+echo "Some sample files for preview." > "Plain Text.txt"
 
 cp "Plain Text.txt" "Access.odb"
 cp "Plain Text.txt" "Android.apk"
