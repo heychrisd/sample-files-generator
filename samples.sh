@@ -12,16 +12,16 @@
 # Run with: ./samples.sh
 # Double click can run it without command prompt, but this method doesn't show any message.
 
-# --------------------------------------DEFINITIONS--------------------------------------
+# ---------------------------------------------------------------------------------------
 
 green='\033[1;42m' #Green background
 reset='\033[0m' #Reset font
 
 echo ""
-echo -e "$green Files created. $reset Go to Icons Samples folder"
+echo -e "$green Files created. $reset Go to Icon Samples folder"
 echo ""
 
-mkdir "Icons Samples" && cd "Icons Samples"
+mkdir "Icon Samples" && cd "Icon Samples"
 echo "Some sample files for preview." > "Plain Text.txt"
 
 cp "Plain Text.txt" "Access.odb"
