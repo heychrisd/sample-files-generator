@@ -1,5 +1,5 @@
 # Sample Files Generator
-Bash script to create sample files for icon themes preview.
+Bash script to create sample files for icon themes preview. Ideal for Linux environments.
  
 Created to help me for the creation of my personal work, [Boston Icons](https://www.opendesktop.org/p/1012402/).
 
