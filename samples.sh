@@ -5,8 +5,8 @@
 # Author :		Chris D
 # eMail :		christiandiaz.design@gmail.com
 # Website:		github.com/heychrisd/sample-files-generator
-# License :		BSD - 2 Clause
-# Version :		2020-5
+# License :		MIT
+# Version :		2020-8
 # ---------------------------------------------------------------------------------------
 
 # To give permissions: chmod +x ./samples.sh
@@ -24,7 +24,7 @@ echo ""
 
 mkdir "File Samples" && cd "File Samples"
 mkdir "Folder"
-echo "Sample file for preview." > "Plain Text.txt"
+echo "Sample file for preview. Boston icons / IC01" > "Plain Text.txt"
 
 cp "Plain Text.txt" "3D Model.stl"
 cp "Plain Text.txt" "Access.odb"
@@ -40,8 +40,12 @@ cp "Plain Text.txt" "Bitmap.bmp"
 cp "Plain Text.txt" "Blender Project.blend"
 cp "Plain Text.txt" "Blog.rss"
 cp "Plain Text.txt" "Calendar.ics"
+cp "Plain Text.txt" "Certificate.crt"
 cp "Plain Text.txt" "Changelog"
 cp "Plain Text.txt" "Code.c"
+cp "Plain Text.txt" "Code.go"
+cp "Plain Text.txt" "Code.java"
+cp "Plain Text.txt" "Code.kt"
 cp "Plain Text.txt" "Code.vala"
 cp "Plain Text.txt" "Contacts.vcf"
 cp "Plain Text.txt" "Copying"
@@ -67,6 +71,7 @@ cp "Plain Text.txt" "GIMP Project.xcf"
 cp "Plain Text.txt" "Glade.ui"
 cp "Plain Text.txt" "Image.iso"
 cp "Plain Text.txt" "Image.png"
+cp "Plain Text.txt" "Install"
 cp "Plain Text.txt" "Iptables.rules"
 cp "Plain Text.txt" "Javascript.js"
 cp "Plain Text.txt" "Library.so"
@@ -86,15 +91,20 @@ cp "Plain Text.txt" "Partial.wkdownload"
 cp "Plain Text.txt" "PGP Key.key"
 cp "Plain Text.txt" "PGP Signature.sig"
 cp "Plain Text.txt" "Pitivi.xges"
+cp "Plain Text.txt" "Playlist.m3u"
 cp "Plain Text.txt" "Presentation.pptx"
 cp "Plain Text.txt" "Presentation Template.otp"
 cp "Plain Text.txt" "Python.py"
 cp "Plain Text.txt" "QML.qml"
+cp "Plain Text.txt" "readme"
 cp "Plain Text.txt" "Repository.flatpakrepo"
 cp "Plain Text.txt" "ROM.nes"
+cp "Plain Text.txt" "RPM.spec"
+cp "Plain Text.txt" "Sass.sass"
 cp "Plain Text.txt" "Script.sh"
 cp "Plain Text.txt" "Subtitles.srt"
 cp "Plain Text.txt" "Table.csv"
+cp "Plain Text.txt" "Text.tex"
 cp "Plain Text.txt" "Torrent file.torrent"
 cp "Plain Text.txt" "Translation.po"
 cp "Plain Text.txt" "Translation template.pot"
